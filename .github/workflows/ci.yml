@@ -28,7 +28,3 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements-dev.txt
       - run: pytest -v
-
-
-      - name: Por ahora no verifica nada
-        run: echo "El pipeline corre, pero todavia no verifica nada. Resuelvan el reto 1."
